@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3rd-website</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- start navbar -->
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a class="active" href="#" data-scroll="home">home</a></li>
+                        <li><a href="#" data-scroll="tours">tours</a></li>
+                        <li><a href="#" data-scroll="music">music</a></li>
+                        <li><a href="#" data-scroll="gallery">gallery</a></li>
+                        <li><a href="#" data-scroll="blogs">blogs</a></li>
+                        <li><a href="#" data-scroll="artist">artist</a></li>
+                        <li><a href="#" data-scroll="contact">contact</a></li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-shopping-cart"></i>
+                    <i class="fas fa-share-alt"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start header -->
+    <section class="header" id="home">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="info">
+                <span>new tour</span>
+                <h2>rock on</h2>
+                <p>jungle band will sing jungle</p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas perferendis expedita inventore, quae
+                    qui
+                    sed ratione saepe impedit consectetur cumque ex.
+                </p>
+                <button>join the tour</button>
+            </div>
+        </div>
+    </section>
+    <!-- end header -->
+
+    <!-- start tours -->
+    <section class="tours" id=tours>
+        <div class="container">
+
+            <div class="heading">
+                <h2>upcoming tour</h2>
+                <img src="./images/head.png" alt="head">
+                <p>rise your emotion & wishes to expend pleasure time with us</p>
+            </div>
+
+            <div class="row">
+                <div class="info">
+
+                    <div class="row">
+
+                        <div class="circle">
+                            <div class="con">
+                                <p>13 APR <br> <span>2018</span></p>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <h3>cochilla music festival</h3>
+                            <span><i class="fas fa-map-marker-alt"></i>indio california usa</span>
+                            <span><i class="far fa-clock"></i>april 13 22 2018</span>
+                            <button class="main-btn">buy ticket</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="circle">
+                            <div class="con">
+                                <p>13 APR <br> <span>2018</span></p>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <h3>cochilla music festival</h3>
+                            <span><i class="fas fa-map-marker-alt"></i>indio california usa</span>
+                            <span><i class="far fa-clock"></i>april 13 22 2018</span>
+                            <button class="main-btn">buy ticket</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="circle">
+                            <div class="con">
+                                <p>13 APR <br> <span>2018</span></p>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <h3>cochilla music festival</h3>
+                            <span><i class="fas fa-map-marker-alt"></i>indio california usa</span>
+                            <span><i class="far fa-clock"></i>april 13 22 2018</span>
+                            <button class="main-btn">buy ticket</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="circle">
+                            <div class="con">
+                                <p>13 APR <br> <span>2018</span></p>
+                            </div>
+                        </div>
+
+                        <div class="details">
+                            <h3>cochilla music festival</h3>
+                            <span><i class="fas fa-map-marker-alt"></i>indio california usa</span>
+                            <span><i class="far fa-clock"></i>april 13 22 2018</span>
+                            <button class="main-btn">buy ticket</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="image">
+                    <img src="./images/10.jpg" alt="img" />
+                </div>
+            </div>
+            <button class="main-btn m-auto">view more tour</button>
+        </div>
+    </section>
+    <!-- end tours -->
+
+    <!-- start music -->
+    <section class="music" id="music">
+        <div class="container">
+
+            <div class="heading">
+                <h2>features music</h2>
+                <img src="./images/head.png" alt="head">
+                <p>rise your emotion & wishes to expend pleasure time with us</p>
+            </div>
+            <div class="btns">
+                <button class="main-btn active-btn">audio</button>
+                <button class="main-btn">video</button>
+                <button class="main-btn">album</button>
+            </div>
+            <div class="row">
+                <div class="image">
+                    <div class="name">
+                        sia
+                    </div>
+                </div>
+                <div class="songs">
+
+                    <div class="sound">
+                        <audio id="player-1" src="./audio/01.mp3"></audio>
+                        <div class="row">
+                            <div class="item">01.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-1').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-1').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-1').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-1').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-2" src="./audio/02.mp3"></audio>
+                        <div class="row">
+                            <div class="item">02.iam still here</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-2').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-2').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-2').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-2').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-3" src="./audio/03.mp3"></audio>
+                        <div class="row">
+                            <div class="item">03.be awway</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-3').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-3').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-3').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-3').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-4" src="./audio/04.mp3"></audio>
+                        <div class="row">
+                            <div class="item">05.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-4').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-4').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-4').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-4').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-5" src="./audio/05.mp3"></audio>
+                        <div class="row">
+                            <div class="item">06.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-5').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-5').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-5').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-5').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-6" src="./audio/06.mp3"></audio>
+                        <div class="row">
+                            <div class="item">07.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-6').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-6').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-6').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-6').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-7" src="./audio/07.mp3"></audio>
+                        <div class="row">
+                            <div class="item">08.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-7').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-7').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-7').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-7').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-8" src="./audio/08.mp3"></audio>
+                        <div class="row">
+                            <div class="item">09.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-8').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-8').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-8').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-8').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-9" src="./audio/09.mp3"></audio>
+                        <div class="row">
+                            <div class="item">10.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-9').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-9').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-9').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-9').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-10" src="./audio/10.mp3"></audio>
+                        <div class="row">
+                            <div class="item">11.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-10').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-10').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-10').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-10').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-11" src="./audio/11.mp3"></audio>
+                        <div class="row">
+                            <div class="item">12.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-11').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-11').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-11').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-11').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sound">
+                        <audio id="player-10" src="./audio/10.mp3"></audio>
+                        <div class="row">
+                            <div class="item">13.genius</div>
+                            <div class="item">3.33 min <i class="fas fa-headphones"></i></div>
+                            <div class="item controls">
+                                <button onclick="document.getElementById('player-10').play()">
+                                    <i class="fas fa-play"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-10').pause()">
+                                    <i class="fas fa-pause"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-10').volume += .1">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <button onclick="document.getElementById('player-10').volume -= .1">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <button class="main-btn m-auto view">view more audio</button>
+        </div>
+    </section>
+    <!-- end music -->
+
+    <!-- start photos -->
+    <section class="photos" id=gallery>
+
+        <div class="heading">
+            <h2>bset photo frame</h2>
+            <img src="./images/head.png" alt="head">
+            <p>rise your emotion & wishes to expend pleasure time with us</p>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <img src="./images/03.jpg" alt="photo" style="height: 631px" />
+                <img src="./images/07.jpg" alt="photo" />
+            </div>
+            <div class="box">
+                <img src="./images/04.jpg" alt="photo" />
+                <img src="./images/09.jpg" alt="photo" />
+            </div>
+            <div class="box">
+                <img src="./images/05.jpg" alt="photo" />
+                <img src="./images/11.jpg" alt="photo" />
+            </div>
+        </div>
+        <button class="main-btn m-auto">view more photos</button>
+    </section>
+    <!-- end photos -->
+
+    <!-- start blogs -->
+    <section class="blogs" id="blogs">
+        <div class="container">
+
+            <div class="heading">
+                <h2>latest news</h2>
+                <img src="./images/head.png" alt="head">
+            </div>
+
+            <div class="row">
+
+                <div class="box">
+                    <div class="overflow-h">
+                        <img src="./images/04.jpg" alt="img" />
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente molestiae nemo!
+                    </p>
+                    <div class="details">
+                        <span><i class="fas fa-user"></i> post by admin </span>
+                        <span><i class="fas fa-clock"> </i>28 feb 2020</span>
+                        <span><i class="fas fa-comment-alt"></i>2.222</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="overflow-h">
+                        <img src="./images/06.jpg" alt="img" />
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente molestiae nemo!
+                    </p>
+                    <div class="details">
+                        <span><i class="fas fa-user"></i> post by admin </span>
+                        <span><i class="fas fa-clock"> </i>28 feb 2020</span>
+                        <span><i class="fas fa-comment-alt"></i>2.222</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="overflow-h">
+                        <img src="./images/08.jpg" alt="img" />
+                    </div>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque sapiente molestiae nemo!
+                    </p>
+                    <div class="details">
+                        <span><i class="fas fa-user"></i> post by admin </span>
+                        <span><i class="fas fa-clock"> </i>28 feb 2020</span>
+                        <span><i class="fas fa-comment-alt"></i>2.222</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- end blogs -->
+
+    <!-- start back -->
+    <div class="back">
+        <div class="overlay"></div>
+        <div class="info">
+            <h2>subscribe to the new settller</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, doloribus amet reprehenderit
+                voluptas consectetur aspernatur fugiat, ex, vel nisi eligendi possimus.
+            </p>
+            <form action="">
+                <input type="email" name="mail" id="mail" placeholder="your email address">
+                <button class="main-btn active-btn">suscribe now</button>
+            </form>
+        </div>
+    </div>
+    <!-- end back -->
+
+    <!-- start slider -->
+    <section class="slider">
+        <!-- Swiper -->
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/01.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/02.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/03.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/04.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/05.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/06.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/07.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/08.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/09.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/10.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/11.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/12.jpg" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/13.png" alt="img" />
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="image-over">
+                        <div class="overlay">
+                            <div class="icon">
+                                <i class="fab fa-instagram"></i>
+                                <span>@singmusic</span>
+                            </div>
+                        </div>
+                        <img src="./images/14.jpg" alt="img" />
+                    </div>
+                </div>
+
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- end slider -->
+
+    <!--start contact-->
+    <div class="contact">
+        <img src="./images/logo.png" alt="logo">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus dolorum esse officia culpa, velit rerum
+            eligendi sunt nemo ex explicabo.
+        </p>
+        <div class="row">
+
+            <div class="box">
+                <div class="info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>egypt,cairo</span>
+                    <span>nasr city,str 201</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="info">
+                    <i class="fas fa-envelope"></i>
+                    <span>sing@gmail.com</span>
+                    <span>singsong@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="info">
+                    <i class="fas fa-phone-alt"></i>
+                    <span>+201 254862255</span>
+                    <span>+201 254876952</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--end contact-->
+
+    <!-- start footer -->
+    <footer>
+        <p>2020 &copy; <span>sing</span> music website. all right reserved</p>
+        <p>design & develop with <span>mohamed sakr</span></p>
+    </footer>
+    <!-- end footer -->
+
+    <!-- start buttton up -->
+    <button class="up">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- end buttton up -->
+
+    <!-- start laoding page -->
+    <div class="loading">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end laoding page -->
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/plujins.js"></script>
+</body>
+
+</html>
